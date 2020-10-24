@@ -7,3 +7,10 @@ Para instalar node usando nvm se ejecuta el comando *nvm install node* para la �
 En este caso hemso descargado, a parte de la última, la versión 4.9.1 y la versión 0.11.16.
 
 ##### Ejercicio 2 Crear una descripción del módulo usando package.json. En caso de que se trate de otro lenguaje, usar el método correspondiente.
+
+Una vez instalado el entorno virtual de node.js (ejercicio1), para crear una descripción de un paquete usamos el comando *npm init*, que nos va a pedir que vayamos introduciendo la información sobre el paquete.
+
+![Imagen 1](https://github.com/antobalbis/autoevaluacion/blob/main/images/ejercicio2-2.png)
+
+Después de esto se crea en el directorio el archivo package.json con la descripción del proyecto que hemos añadido.
+
