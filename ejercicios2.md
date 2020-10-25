@@ -25,4 +25,3 @@ Al ejecutar los test se nos muestra en consola el mensaje último que indica que
 ![Imagen 2](https://github.com/antobalbis/autoevaluacion/blob/main/images/ejercicio4-2.png)
 
 Ahora vamos a cambiar la función para que devuelva el resultado correcto. 
-
