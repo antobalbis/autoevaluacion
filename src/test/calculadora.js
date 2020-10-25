@@ -1,4 +1,4 @@
-var calculadora = require("./calculadora.js");
+var calculadora = require("../calculadora.js");
 assert = require("assert");
 
 var new_calculadora = new calculadora.Calculadora(2,2);

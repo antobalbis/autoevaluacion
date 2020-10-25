@@ -4,7 +4,7 @@
   "description": "Ejemplo de creación de descripción",
   "main": "calculadora.js",
   "scripts": {
-    "test": "make test"
+    "test": "node test/calculadora.js"
   },
   "author": "Antonio Balbís",
   "license": "ISC"
