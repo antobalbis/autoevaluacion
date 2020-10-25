@@ -8,9 +8,21 @@ En este caso hemso descargado, a parte de la última, la versión 4.9.1 y la ver
 
 ##### Ejercicio 2 Crear una descripción del módulo usando package.json. En caso de que se trate de otro lenguaje, usar el método correspondiente.
 
-Una vez instalado el entorno virtual de node.js (ejercicio1), para crear una descripción de un paquete usamos el comando *npm init*, que nos va a pedir que vayamos introduciendo la información sobre el paquete.
+Para ello vamos a crear una aplicación simple en node llamado calculadora.js, creamos la clase calculadora que recibe dos números y añadimos la función de suma y resta.
+
+Después, teniendo instalado node.js (ejercicio1), para crear una descripción de un paquete usamos el comando *npm init*, que nos va a pedir que vayamos introduciendo la información sobre el paquete.
 
 ![Imagen 1](https://github.com/antobalbis/autoevaluacion/blob/main/images/ejercicio2-2.png)
 
 Después de esto se crea en el directorio el archivo package.json con la descripción del proyecto que hemos añadido.
+
+##### Ejercicio 4 Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga. A continuación, ejecutarlos desde mocha (u otro módulo de test de alto nivel), usando descripciones del test y del grupo de test de forma correcta. Si hasta ahora no has subido el código que has venido realizando a GitHub, es el momento de hacerlo, porque lo vamos a necesitar un poco más adelante.
+
+Ahora vamos a crear las pruebas para comprobar que el ejemplo funciona, para ello creamos 3 *assert*, uno para la creación del objeto, otro para la suma y otro para la resta.
+
+Al ejecutar los test se nos muestra en consola el mensaje último que indica que todos se han cumplido, ahora vamos a añadir una nueva función que devuelva un resultado erróneo y un test que espere el resultado correcto. Al ejecutar el nuevo test se nos muestra un mensaje de error indicando que el test no se ha cumplido. 
+
+![Imagen 2](https://github.com/antobalbis/autoevaluacion/blob/main/images/ejercicio4-2.png)
+
+Ahora vamos a cambiar la función para que devuelva el resultado correcto. 
 
