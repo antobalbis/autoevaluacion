@@ -18,7 +18,7 @@ function sum(){
 function sub(){
 	return this.first - this.second;
 }
-
+ 
 function prod(){
 	return this.first * this.second;
 }
