@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio2-2",
+  "version": "0.0.1",
+  "description": "Ejemplo de creación de descripción",
+  "main": "calculadora.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "Antonio Balbís",
+  "license": "ISC"
+}
