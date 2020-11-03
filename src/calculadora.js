@@ -15,6 +15,7 @@ function sum(){
 	return this.first + this.second;
 }
 
+
 function sub(){
 	return this.first - this.second;
 }
