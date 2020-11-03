@@ -2,9 +2,9 @@
   "name": "ejercicio2-2",
   "version": "0.0.1",
   "description": "Ejemplo de creación de descripción",
-  "main": "calculadora.js",
+  "main": "src/calculadora.js",
   "scripts": {
-    "test": "node test/calculadora.js"
+    "test": "node src/test/calculadora.js"
   },
   "author": "Antonio Balbís",
   "license": "ISC"
