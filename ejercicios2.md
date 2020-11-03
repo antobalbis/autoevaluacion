@@ -29,3 +29,17 @@ Al ejecutar los test se nos muestra en consola el mensaje último que indica que
 ![Imagen 2](https://github.com/antobalbis/autoevaluacion/blob/main/images/ejercicio4-2.png)
 
 Ahora vamos a cambiar la función para que devuelva el resultado correcto. 
+
+##### Ejercicio 5
+
+Lo primero es registrarnos con travis y vincularlo a nuestra cuenta de GitHub. Para ello accedemos a la página de [travis](https://travis-ci.org/) y nos registramos con github.
+
+Una vez registrados con GitHub añadimos en travis el repositorio en el que vamos a usar integración continua con travis como se ve en la siguiente imagen.
+
+![imagen 3](https://github.com/antobalbis/autoevaluacion/blob/main/images/repos_travis.png)
+
+Luego vamos a crear un fichero [.travis.yml](https://github.com/antobalbis/autoevaluacion/blob/main/.travis.yml) para las pruebas, con esto se va a comprobar que se cumplen las condiciones al hacer un Pull Request. Por último hacemos un pull request con el programa del ejercicio anterior y comprobamos que pasa las pruebas.
+
+![imagen 4](https://github.com/antobalbis/autoevaluacion/blob/main/images/captura_resultado_travis.png)
+
+Además nos sirve para comprobar que al tener éxito en las pruebas nos llega un mensaje a nuestro correo.
