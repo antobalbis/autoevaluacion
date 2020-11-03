@@ -16,10 +16,6 @@ Después, teniendo instalado node.js (ejercicio1), para crear una descripción d
 
 Después de esto se crea en el directorio el archivo package.json con la descripción del proyecto que hemos añadido.
 
-#### Ejercicio 3 Descargar el repositorio de ejemplo anterior, instalar las herramientas necesarias (principalmente Scala y sbt) y ejecutar el ejemplo desde sbt. Alternativamente, buscar otros marcos para REST en Scala tales como Finatra o Scalatra y probar los ejemplos que se incluyan en el repositorio.
-
-
-
 ##### Ejercicio 4 Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga. A continuación, ejecutarlos desde mocha (u otro módulo de test de alto nivel), usando descripciones del test y del grupo de test de forma correcta. Si hasta ahora no has subido el código que has venido realizando a GitHub, es el momento de hacerlo, porque lo vamos a necesitar un poco más adelante.
 
 Ahora vamos a crear las pruebas para comprobar que el ejemplo funciona, para ello creamos 3 *assert*, uno para la creación del objeto, otro para la suma y otro para la resta.
