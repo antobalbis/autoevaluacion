@@ -1,5 +1,12 @@
 language: node
 node_js: 
- - "15"
+ - 15
+ - 14
 
-script: npm test
+before_install:
+	- npm install -g mocha
+	
+install:
+	- cd src; npm install .
+
+script: mocha
