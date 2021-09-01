@@ -12,3 +12,5 @@
 #### Ejercicio 2: Configurar integración continua para nuestra aplicación usando Travis o algún otro sitio.
 
 Usamos una aplicación ya creada en nuestro repositorio de ejercicios, y modificamos el archivo travis que ya creamos previamente de forma que definimos el lenguaje node js, las versiones de node.js que vamos a usar, luego, bajo el comando before_install instalamos mocha, luego instalamos la aplicación y por último ejecutamos el script.
+
+
