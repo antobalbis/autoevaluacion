@@ -23,10 +23,23 @@ app.listen(port)
 
 Se ha añadido un método que recibe dos variables y devuelve una cadena combinando ambas.
 
-![imagen]()
+![imagen](https://github.com/antobalbis/autoevaluacion/blob/main/images/captura_amigo.png)
 
 **Crear pruebas para las diferentes rutas de la aplicación.**
 
 Se ha creado un test que comprueba que la respuesta de la llamada a la función es 200.
 
-![imagen]()
+```
+var request = require('supertest'),
+app = require('../ejemplo.js');
+
+describe( "GET /saludarAmigo", function() {
+    it('responde con cadena', function (done) {
+       request(app)
+           .get('/saludarAmigo/uno/dos')
+           .expect(200,done);
+    });
+});
+```
+
+![imagen](https://github.com/antobalbis/autoevaluacion/blob/main/images/test_bien.png)
